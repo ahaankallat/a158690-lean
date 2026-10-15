@@ -1,7 +1,7 @@
-# Lean formalization of Bala's conjectures for OEIS A158690
+# Bala's congruence conjectures for A158690 (Lean 4)
 
-This repository is a **Lean 4 + mathlib formalization handoff draft** of the proof that the
-sequence A158690 satisfies Peter Bala's two congruence conjectures.
+This repository contains the Lean 4 and Mathlib formalization of the proof, given in the paper *A Proof of Bala's Congruence Conjectures for A158690* by Ahaan Kallat ([arXiv:2609.07238](https://arxiv.org/abs/2609.07238)), that the sequence A158690 satisfies Peter Bala's two congruence conjectures: the sequence is eventually periodic modulo every k with period dividing φ(k), and its shifts satisfy Gauss congruences. The exponential generating function of A158690 has the form G(e^t − 1) with G an integer power series, and the argument works for every sequence of that form.
+
 
 ## Mathematical structure
 
@@ -66,3 +66,7 @@ lake build
 ## GitHub Actions
 
 Every push runs `lake build` using Lean and mathlib.
+
+## License and citation
+
+The code is released under the Apache License 2.0 (see `LICENSE`). Citation details are in `CITATION.cff`, and GitHub shows a "Cite this repository" button.

@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this formalization, please cite the paper below."
+title: "Lean 4 formalization of 'A Proof of Bala's Congruence Conjectures for A158690'"
+type: software
+authors:
+  - family-names: Kallat
+    given-names: Ahaan
+    affiliation: "Northeastern University"
+repository-code: "https://github.com/ahaankallat/a158690-lean"
+license: Apache-2.0
+abstract: "Lean 4 and Mathlib formalization of the proof that OEIS A158690 satisfies Peter Bala's periodicity and Gauss congruence conjectures, via Stirling transforms of integer power series."
+keywords:
+  - "lean4"
+  - "mathlib"
+  - "formal verification"
+  - "congruences"
+  - "Stirling numbers"
+  - "Gauss congruences"
+  - "OEIS"
+  - "A158690"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Kallat
+      given-names: Ahaan
+  title: "A Proof of Bala's Congruence Conjectures for A158690"
+  year: 2026
+  journal: "arXiv:2609.07238"
+  url: "https://arxiv.org/abs/2609.07238"
